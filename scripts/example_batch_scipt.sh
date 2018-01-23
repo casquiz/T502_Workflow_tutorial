@@ -5,7 +5,7 @@
 #PBS -q debug
 #PBS -l nodes=1:ppn=16,vmem=16gb
 #PBS -l walltime=1:00:00
-#BS -m abe
+#PBS -m abe
 #PBS -M rtraborn@indiana.edu
 
 module load sra-toolkit
