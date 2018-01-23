@@ -6,12 +6,12 @@
 #PBS -l nodes=1:ppn=16,vmem=16gb
 #PBS -l walltime=1:00:00
 #PBS -m abe
-#PBS -M rtraborn@indiana.edu
+#PBS -M campalex@umail.iu.edu
 
 module load sra-toolkit
 module load fastqc
 
-WD=<path to desired working directory>
+WD=/N/u/campalex/Carbonate/T502_Workflow_tutorial
 
 cd $WD
 
