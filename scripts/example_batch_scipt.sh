@@ -11,7 +11,7 @@
 module load sra-toolkit
 module load fastqc
 
-WD=/N/u/rtraborn/Carbonate/
+WD=<path to desired working directory>
 
 cd $WD
 
